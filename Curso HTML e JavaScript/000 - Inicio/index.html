@@ -5,10 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu HTML</title>
 <style >
-    
-    p {
-        background: lightskyblue;
-    }
 
     #cabecalho-dois{
         background: purple;
@@ -17,10 +13,11 @@
     .fundo-vermelho{
         background-color: red;
     }
-    
-    b {
-        font-family: sans-serif;
-        font-style: italic;
+
+    .img-in-text{
+
+        width:50px;
+        height:50px;
     }
     
 </style>
@@ -28,9 +25,39 @@
 </head>
 <body>
 
-    <h1 id="cabecalho-um" class="fundo-vermelho border-esquerda">Vai vir aqui</h1>
-    <h1 id="cabecalho-dois" class="fundo-vermelho">Vai vir aqui</h1>
-    <p> Lorem ipsum dolor sit <b>amet consectetur</b> adipisicing elit. Quidem molestiae beatae, possimus eaque error ipsam, obcaecati dolores fugit, praesentium numquam mollitia consequuntur ut laudantium voluptas repudiandae harum illum quos cum.</p>
+    <h1 style="background: blue;" id="cabecalho-um" class="fundo-vermelho">Vai vir aqui</h1>
+    <h1 id="cabecalho-dois">Vai vir aqui</h1>
+    <p> Lorem ipsum dolor sit <b>amet consectetur</b> adipisicing elit.<del>Quidem</del> <ins> molestiae</ins> <strong>beatae</strong>, 
+    </p>
+        <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank">
+        <img class="img-in-text" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2048px-HTML5_logo_and_wordmark.svg.png" alt="Logo do HTML">
+    </a>
+        
+    <p>possimus <small> eaque </small>error ipsam, <i>obcaecati dolores fugit</i> , praesentium <em> numquam mollitia consequuntur </em> ut laudantium voluptas <q> repudiandae harum illum</q> quos cum.2<sup>2</sup> H<sub>2</sub>O
+    </p>
+
+
+    <blockquote>
+        Aqui é um bloco de citação
+    </blockquote>
+
+    <hr>
+
+    <pre><code>
+let soma = 0;
+inputMais.forEach((input) =>{
+ const valor = input.value;
+const numero = Number(valor);
+
+if(numero){
+    soma += numero;
+}
+
+console.log(soma);
+});
+</code></pre>
+
+  
     
 </body>
 </html>
