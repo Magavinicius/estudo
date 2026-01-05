@@ -1,0 +1,390 @@
+Received: from SN4P221MB0730.NAMP221.PROD.OUTLOOK.COM (2603:10b6:806:201::21)
+ by DM8P221MB0342.NAMP221.PROD.OUTLOOK.COM with HTTPS; Fri, 6 Jan 2023
+ 19:05:04 +0000
+Received: from BN0PR04CA0036.namprd04.prod.outlook.com (2603:10b6:408:e8::11)
+ by SN4P221MB0730.NAMP221.PROD.OUTLOOK.COM (2603:10b6:806:201::21) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5944.19; Fri, 6 Jan
+ 2023 19:05:03 +0000
+Received: from BN8NAM04FT033.eop-NAM04.prod.protection.outlook.com
+ (2603:10b6:408:e8:cafe::51) by BN0PR04CA0036.outlook.office365.com
+ (2603:10b6:408:e8::11) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5986.15 via Frontend
+ Transport; Fri, 6 Jan 2023 19:05:02 +0000
+Authentication-Results: spf=pass (sender IP is 159.183.221.242)
+ smtp.mailfrom=em4753.credly.com; dkim=pass (signature was verified)
+ header.d=credly.com;dmarc=pass action=none
+ header.from=credly.com;compauth=pass reason=100
+Received-SPF: Pass (protection.outlook.com: domain of em4753.credly.com
+ designates 159.183.221.242 as permitted sender)
+ receiver=protection.outlook.com; client-ip=159.183.221.242;
+ helo=o1.ptr3930.credly.com; pr=C
+Received: from o1.ptr3930.credly.com (159.183.221.242) by
+ BN8NAM04FT033.mail.protection.outlook.com (10.13.161.53) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.5944.17 via Frontend Transport; Fri, 6 Jan 2023 19:05:02 +0000
+X-IncomingTopHeaderMarker:
+ OriginalChecksum:2DA23690A31559777A78CD129637B7D778134DF25AD4C32E47B18F54669702FE;UpperCasedChecksum:0CAA2471FEC1BA23A08E54A1386A22CD68B2F3BF38687594194665DD3FBEFC31;SizeAsReceived:2442;Count:14
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=credly.com;
+	h=from:subject:mime-version:to:content-type:content-transfer-encoding:
+	cc:content-type:from:subject:to;
+	s=d; bh=6uFvyIsDffdPqug0mrEo4SpTvxZQ92HHBev8sqyWqaY=;
+	b=YFkrAh9cs4G2xgg+K1I01mTiVnjZL7JkQMbeqInvHp7gCnAh2xZIAvuhI4OZm7QbdkUu
+	B1t1VLEaUujOelwZ4sI/LTBb9fvUimdrd8uNcjQyM2MKNt/5y/ORB/g/HH3au+1P4a4tyc
+	DtqeeNuvmqkEselJlmVyAK0HKY7drF1vg9HpDklATgFf6O3FmO5w1KSGrVg+S51AAXDyFc
+	vDYGhVtUxK8EsQy6maibPvv5ZgrD+2G2SM98t/lpqdWhFGCXS5hIoTMh+8NHEfWFoqz75x
+	iILfojUlkSUW1XjBBFdMeh5ew+SgRpoqRYaTvI0KSwv8jKUV7AT8gYhp48GEMLng==
+Received: by filterdrecv-75d55b8b7b-sm8qr with SMTP id filterdrecv-75d55b8b7b-sm8qr-1-63B870DD-7E
+        2023-01-06 19:05:01.299205619 +0000 UTC m=+4305568.678666961
+Received: from heroku.com (unknown)
+	by geopod-ismtpd-3-2 (SG) with ESMTP
+	id QyrCKxudRza_FeNAocoWKA
+	for <viniciusmagalhaes12@hotmail.com>;
+	Fri, 06 Jan 2023 19:05:01.168 +0000 (UTC)
+Date: Fri, 06 Jan 2023 19:05:01 +0000 (UTC)
+From: Credly <admin@credly.com>
+Message-ID: <63b870dce08df_1e1be414769f@9a2c44f9-ff60-446c-af5c-43fc2f27ccdf.mail>
+Subject: View my verified achievement from Amazon Web Services Training and
+ Certification!
+X-SG-EID:
+ =?us-ascii?Q?BhvaZME6v6MkDnTni2t57SGe=2FuAuqwmSPceR9YvjsIIOpJQgonjD1bIIBg4kCb?=
+ =?us-ascii?Q?cc+Z=2FKKxJcZouRewB4MWVqhkUSDrZpqVUesvbXB?=
+ =?us-ascii?Q?XAMt7vX9wnrEOkOiOkbavnnaqeGBja+RAAHgp8H?=
+ =?us-ascii?Q?KbFQGzWpF2K=2FvEUx3qxJ34uorc2bqpP6P88qe5f?=
+ =?us-ascii?Q?oUVjPMaemCndjMJCQjN1kMvx7cUksN40Sbc1hH6?=
+ =?us-ascii?Q?uaIwfvuy7QOgHA5BkCqhfL6iNycWn1oNmV8FOH?=
+X-SG-ID:
+ =?us-ascii?Q?N2C25iY2uzGMFz6rgvQsb8raWjw0ZPf1VmjsCkspi=2FLf4LusUZAifNElkFd1nT?=
+ =?us-ascii?Q?UkZHs8JhQecU0sUdqIB0JbbhwJwQej6SvUr6kR6?=
+ =?us-ascii?Q?NJWQejf8Jg916GlIuJBQP0sQuEjyFAq0YAvpmKF?=
+ =?us-ascii?Q?gIRD0zG0+Nw=2F7ZySxVK4H0zrLpltCL9VMaCkQ7s?=
+ =?us-ascii?Q?WtRRVYpjz+qVzGUWdVdGHEVIkSBf63qVXs2nOsN?=
+ =?us-ascii?Q?Hj5enia7LrVfSPo6ZbSGqYxllVdoQdA7YJDHWAD?=
+ =?us-ascii?Q?GtdUP8Gvy2JC6Sj57+8FCOWLPUG36dPvoBhrVSM?=
+ =?us-ascii?Q?17t5=2F0+HYqSzlQWk1i5ERJXsCgBKhl947yNlClI?=
+ =?us-ascii?Q?OCHbJxkIXd9aFUiWOyYjc8jahjYjLWkw=2FC4uBnl?=
+ =?us-ascii?Q?h1j7+r4QMe=2FNcUtRYGlEatzpleyOUhKw=3D=3D?=
+To: viniciusmagalhaes12@hotmail.com
+X-Entity-ID: 2cs5b3+zq0/CAj/7ISZjUQ==
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_63b870dc9c01e_1e1be4147581";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+X-IncomingHeaderCount: 14
+Return-Path:
+ bounces+26682722-d306-viniciusmagalhaes12=hotmail.com@em4753.credly.com
+X-MS-Exchange-Organization-ExpirationStartTime: 06 Jan 2023 19:05:02.3253
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id:
+ 6c15ccf7-1cf7-4fc2-a973-08daf018ea11
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic: BN8NAM04FT033:EE_|SN4P221MB0730:EE_
+X-MS-Exchange-Organization-AuthSource:
+ BN8NAM04FT033.eop-NAM04.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-UserLastLogonTime: 1/6/2023 7:04:44 PM
+X-MS-Office365-Filtering-Correlation-Id: 6c15ccf7-1cf7-4fc2-a973-08daf018ea11
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 159.183.221.242
+X-SID-PRA: ADMIN@CREDLY.COM
+X-SID-Result: PASS
+X-MS-Exchange-Organization-PCL: 2
+X-MS-Exchange-Organization-SCL: 1
+X-Microsoft-Antispam: BCL:5;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 06 Jan 2023 19:05:02.0597
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 6c15ccf7-1cf7-4fc2-a973-08daf018ea11
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-AuthSource:
+ BN8NAM04FT033.eop-NAM04.prod.protection.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg:
+ 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SN4P221MB0730
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:02.3121167
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.5944.019
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;dwl:0;dkl:0;rwl:0;ucf:0;jmr:0;ex:0;auth:1;dest:I;ENG:(5062000305)(90000117)(90012020)(91020020)(91040095)(5061607266)(5061608174)(9050020)(9100338)(2008001134)(4810004)(4910033)(8820095)(9575002)(10195002)(9320005);
+X-Message-Info:
+	qZelhIiYnPkx84CNH6AeQoY9OcT3puzgEMkvP/NgXst+VHi+/+PAu3YlZEGjtyOt3i8Gi6T0aVKGzzGmBcAcVeU+ExNmEAAp8oHn5mf5TKRF9GPqMtBl2KB9ToXj9JoOT20082CmdpiVBpsMVS2U1rarjq2Jm3o6CjWd1GhRidbK5ltR6uXJIaJIxy/UO5JaPWYZELpNkmQibZpzisFXQA==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0xO0Q9MTtHRD0xO1NDTD0z
+X-Microsoft-Antispam-Message-Info:
+	=?utf-8?B?VEJUZE93Zk1mdjJFenBLNTQ1VVppdm1iblBnUXhSOWlOdFVHV3d1cVYwQTBx?=
+ =?utf-8?B?bm15UTcxOEx4OVZ6K2srRHlJRFpYTS80L2JoakhiRkY4Z05SNGdlcmpod3dt?=
+ =?utf-8?B?cEVXei9GandHSzJzNGVNVFIxWEdtcHM4ekZxdE1pbmlyc29TMkRTUWZRZUND?=
+ =?utf-8?B?UE5nQTRaM3VJOENyMTdKMWx1OXNKb0Ftc1AySWhuRVkrMFdHRGZjNjNwUXBq?=
+ =?utf-8?B?c0EzcGQrOHdlNzMvSXFxYk8wZE1xcVNRY3FJNHVsTnVncWhJaHZaN29aV20r?=
+ =?utf-8?B?VkVrUnFMVUR0UTdzYldkMHd0bThNWXZwNUxRa1RCT3hXK2xiWU1hR24wQWsy?=
+ =?utf-8?B?czgveXVJcWY2Z1RyakFJQVA5d2lSUVVLcTdCOVd3aGNXeDd0RXdUYWxhVnNz?=
+ =?utf-8?B?aHdMVGVjZ0VIYmJGeTlYUU9rUW82Zys0eG5FQkNyaW9JUUN1RGtzcHZSb2hu?=
+ =?utf-8?B?Ly9jYzFnbVpucmVuSFRFVlU4Y2I1c21XKzhZbURaTXhrYmlJa3JRbndCaTVN?=
+ =?utf-8?B?S3lWVk5IWjRrdlFKSDFnd0JhVU8xTGo5aVRrK1FzS04zdDFoWTlpNDZNaDQv?=
+ =?utf-8?B?dXgzV3lWdXRreFp2MTZselhFYjA1ellKYmpMaGZmWk5uazRCdWFKMEFxWG1O?=
+ =?utf-8?B?eTVaN0cvQlJWQkM2d2tSTzdtYjUrdWwzMks3d2EvUEFKWHZPQ3RyeGtWWGFr?=
+ =?utf-8?B?TmtOWGRuV0ZCcHdSU0U0TEorR2dWOFd6TURhUWlLTGJjY25YV0hpandGdGVQ?=
+ =?utf-8?B?dHZvSkZTdmg3S2pNNlAyWEJKYzlNaW1UdFZhbXV3QjRVTTZXcENVTStIYWhs?=
+ =?utf-8?B?ZVNXNjNPeW9jV1M1amgyZHFKNXdFY1A5RXpSNkdtaHNnbjd1eWhaL3djT1dK?=
+ =?utf-8?B?TkpmUUNIYXNzTW1MVUpxSDdtWm9JS3JpcDc3OGtWK3RPUHVsUVRrc3hTY0NN?=
+ =?utf-8?B?cklYRC9UbFM0ZTBMZzRCa2ErNUNueFAxRURpa2ZEbEUwUk1KSEEwUzVNRkEr?=
+ =?utf-8?B?bW9jQ3REdlp0a2VVeXJNWXJKZnhidWsxQmQxNUhOeWFFUXA1eVp4OG5WR0Y0?=
+ =?utf-8?B?aGhUdU5Xb2dPNkJlMUlhNHYveEFnL0F3WEZhMnhzczlOVStya2ovcTlWN2c2?=
+ =?utf-8?B?SjUxdTRpNDZPeG5FOUFWV2p6MFMrc3lvTXR6MU14dzhmZTRzbGJBY0paL2tV?=
+ =?utf-8?B?MTNERSsxY0Z2TlFqSDRXckZoL1o3SlVKanJ2dmdrekwySTluRW5ucDR6dW5v?=
+ =?utf-8?B?eTlUck5HZWpzL3ZjL2FvRzVoWjBnZkw1cGtxemhzd2FNZGwzRCtNUGplS016?=
+ =?utf-8?B?Mnl2SkhzUnc1QlNwNStYaWcyWFFQdzBtT29wV2FicjRnbzh0eVBQdG42cFpC?=
+ =?utf-8?B?WDBuUDg3c0ZvVlpCQWtqWVNaTG95TElxSzFwS2hvajVTSytVWnVvWVQ0Q0RS?=
+ =?utf-8?B?WUhrbXBuWm92UUZDRzRhVmoyNHZkdkZnWHYrcWtkSVZ0YjBKU3VSTFRSa1VV?=
+ =?utf-8?B?QmFDWWdEWm01Ulhyak1LSkwrR0pXbmczaE9oMjFZazN1ajEwOFBYbjZtN0Fz?=
+ =?utf-8?B?M1AyT0FTU2MyS09EdUZhWXVMcHZra0pUZml0TEFnaVBxRjg3ZHkwV3M4TER3?=
+ =?utf-8?B?VUExeGRXNll4ZnFLUWM2U1FyQWdxME8ycCszaGZxUkRrVlRGMFVIU0RkMXlF?=
+ =?utf-8?B?clBWUnZ5cyt3c21tZ3FIVi9YN1JVM21lcHJGTXJxWlE0N0JpWWNXaS9EQzQ3?=
+ =?utf-8?B?eWZPNVVhd01FcjlibWJxQjhsdTNVMHJNdjNtM0xFYm9Sb2IyU1dRYjBROGVF?=
+ =?utf-8?B?cjM5QUZrRjFLbnBvS283TS9hOGwvUk9IZjlpdnJyZ3Qza0FvQ0VCZmNxeDYy?=
+ =?utf-8?B?akFEZjFHb2NuVUpFRGZ2Wmp5WEdDWFpZekkzSU1TVUZhSW1kaUdJSDcvNk4v?=
+ =?utf-8?B?aUFhSVc0bHZhc1hRMmlzckpRdWUrYXI0MHlpLzJldC9oTUZUblVCSlYzdUZF?=
+ =?utf-8?B?aW1mZmwrbzY4TW5wV29pTkcySlJwaHlSK0Y4ZnF1bGVUekROOEI3dkNOZnRX?=
+ =?utf-8?B?amIxcmRGblE3MEpERGk3UThqQW13UTVxeVY1T2llbTk4NSs5YjFvR0JkUG1Y?=
+ =?utf-8?B?SXJEcEQ1SENjSnMvYmVjOC9Cc3p5NXpBUUh3R3ZDSVRXTlpRZE5sdm9sTnk4?=
+ =?utf-8?B?YmFjME5ob2pBamw2RnkvbGlpcGQ3Y3JpSndZUW4yMUVUN21YQ2hJb01TWFRM?=
+ =?utf-8?B?U0UrZGhYb3JnU2ovL1gwdVoxMWJGZW9zZGtRdjU1YjdtRzBPckFrck9uTGxk?=
+ =?utf-8?B?c25EWmxaL25oUkprWWc2Q1FFQ0JiSk9TbVY2MllIcjYwZ1NNZXZJNjZuRWdz?=
+ =?utf-8?B?ZGI5eWJGSUQzQUZkVVF5MWZ1dGthc0hhNGlXRkp5M2VXSjQ0TFRlMzJ6aWdJ?=
+ =?utf-8?B?SHp0c1FoOUZuSW1RUVNRaEx2NFNnWlludUowUUVhTU41dnV5Zi9vVnpKZDgx?=
+ =?utf-8?Q?vokOWDSgjAE?=
+MIME-Version: 1.0
+
+----==_mimepart_63b870dc9c01e_1e1be4147581
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+=0D
+Vin=C3=ADcius Magalh=C3=A3es Batista would like you to view a verified achi=
+evement on Credly:=0D
+=0D
+=0D
+Badge Name: AWS Certified Cloud Practitioner=0D
+Badge Description: Earners of this certification have a fundamental underst=
+anding of IT services and their uses in the AWS Cloud. They demonstrated cl=
+oud fluency and foundational AWS knowledge. Badge owners are able to identi=
+fy essential AWS services necessary to set up AWS-focused projects.=0D
+Issued by: Amazon Web Services Training and Certification=0D
+=0D
+View Details: https://www.credly.com/go/X1fw1G27UQpcSyJMTWUYFg=0D
+=0D
+--=0D
+Credly is a badging platform that works with credible organizations to reco=
+gnize, manage and share professional achievements.  Credly is the world=E2=
+=80=99s leading digital credential service provider.=0D
+=0D
+Unsubscribe https://www.credly.com/email_preferences/v2:c3pkamtJYXduU1RLbTd=
+DMFlHUG0vK0xsSzlraFNBTFRYODZmd0VwQnhXMHdjbFJHZGFYaUU1TT0tLVYzNTNoNHQza3AwRU=
+c4dFQtLUd4azZCRSthY1lwTnVuYkl0QTcrbVE9PQ/edit=0D
+=0D
+=C2=A9 Copyright 2023. All rights reserved.=0D
+=0D
+=0D
+
+----==_mimepart_63b870dc9c01e_1e1be4147581
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns=3D"http://www.w3.org/1999/xht=
+ml" xmlns=3D"http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8">=
+=0D
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width">=0D
+    =0D
+    <!-- Use :recent_outlook_styles to target Outlook 2010+ -->=0D
+    <!--[if (mso)]>=0D
+      <xml:namespace ns=3D"urn:schemas-microsoft-com:vml" prefix=3D"v" />=
+=0D
+      <style type=3D"text/css" data-premailer=3D"ignore">=0D
+        v\: * { behavior:url(#default#VML); display:inline-block }=0D
+      </style>=0D
+    <![endif]-->=0D
+    =0D
+  <style>body {=0D
+margin: 0; padding: 0; -webkit-text-size-adjust: 100%; -ms-text-size-adjust=
+: 100%;=0D
+}=0D
+img {=0D
+border: 0 none; height: auto; line-height: 100%; outline: none; text-decora=
+tion: none; -ms-interpolation-mode: bicubic;=0D
+}=0D
+.ExternalClass {=0D
+width: 100%; line-height: 100%;=0D
+}=0D
+.employee-invitation-button):hover {=0D
+color: #004438 !important; text-decoration: underline !important;=0D
+}=0D
+a.button:hover {=0D
+background-color: #004438 !important; border-color: #004438 !important;=0D
+}=0D
+.button:hover {=0D
+background: #004438; border-color: #004438;=0D
+}=0D
+.eafit .footer1 a:hover {=0D
+color: #230962 !important;=0D
+}=0D
+.eafit .exposed-button .button:hover {=0D
+background: #230962 !important; border-color: #230962 !important;=0D
+}=0D
+.eafit .exposed-button a:not(.button):hover {=0D
+color: #230962 !important;=0D
+}=0D
+.profile-send-message__message-container__message:before {=0D
+content: open-quote;=0D
+}=0D
+.profile-send-message__message-container__message:after {=0D
+content: close-quote;=0D
+}=0D
+.badge-action__action-button:hover {=0D
+background-color: #004438 !important; border-color: #004438 !important;=0D
+}=0D
+.proedge .content .accept-button:hover {=0D
+color: #ffffff !important;=0D
+}=0D
+@media (max-width: 767px) {=0D
+  .new-layout {=0D
+    padding: 10px 20px;=0D
+  }=0D
+}=0D
+@media only screen and (max-width: 510px) {=0D
+  .learn-more {=0D
+    text-align: center;=0D
+  }=0D
+  .learn-more .image {=0D
+    margin: 12px 0 !important;=0D
+  }=0D
+  .learn-more .text {=0D
+    text-align: left !important; width: auto !important;=0D
+  }=0D
+  .tecnologico-de-mexico-footer {=0D
+    text-align: center;=0D
+  }=0D
+  .tecnologico-de-mexico-footer .image {=0D
+    margin: 12px 0 !important;=0D
+  }=0D
+  .tecnologico-de-mexico-footer .text {=0D
+    text-align: left !important; width: auto !important;=0D
+  }=0D
+}=0D
+</style></head>=0D
+  <body style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%=
+; margin: 0; padding: 0;">=0D
+    <!--[if mso]>=0D
+      <center><table><tr><td width=3D"640">=0D
+    <![endif]-->=0D
+      <div class=3D"outer-container" style=3D"max-width: 640px; margin: 0 a=
+uto;">=0D
+        <div id=3D"header">=0D
+</div>=0D
+=0D
+        <table class=3D"headline" style=3D"mso-table-lspace: 0pt; mso-table=
+-rspace: 0pt; border-collapse: collapse; width: 100%;"><tr><td style=3D"bor=
+der-collapse: collapse; font-family: Helvetica, Arial, sans-serif; color: #=
+252525; font-size: 18px; font-weight: bold; padding: 24px;" class=3D"padded=
+-section" align=3D"center">Vin=C3=ADcius Magalh=C3=A3es Batista would like =
+you to view a verified achievement on Credly:</td></tr></table>=0D
+<div class=3D"badge" style=3D"" align=3D"center">=0D
+<img alt=3D"" src=3D"https://images.credly.com/images/00634f82-b07f-4bbd-a6=
+bb-53de397fc3a6/image.png" width=3D"110" height=3D"110" style=3D"height: au=
+to; line-height: 100%; outline: none; text-decoration: none; -ms-interpolat=
+ion-mode: bicubic; border-style: none; border-width: 0;">=0D
+<table style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collap=
+se: collapse; width: 100%;"><tr><td style=3D"border-collapse: collapse; fon=
+t-family: Helvetica, Arial, sans-serif; padding: 24px;" class=3D"padded-sec=
+tion" align=3D"center">=0D
+<div class=3D"nameAndIssuer" style=3D"font-size: 15px;">=0D
+<span class=3D"name" style=3D"color: #333;">=0D
+AWS Certified Cloud Practitioner=0D
+</span>=0D
+<br>=0D
+<span class=3D"issuer" style=3D"color: #666; padding-top: 4px;">=0D
+Issuer: Amazon Web Services Training and Certification=0D
+</span>=0D
+</div>=0D
+</td></tr></table>=0D
+</div>=0D
+=0D
+<div class=3D"exposed-button" style=3D"margin-top: 0;" align=3D"center">=0D
+<a class=3D"button" href=3D"https://www.credly.com/go/X1fw1G27UQpcSyJMTWUYF=
+g" style=3D"font-family: Helvetica, Arial, sans-serif; background-color: #0=
+05850; text-decoration: none; border-radius: 4px; color: white; display: in=
+line-block; font-size: 13px; text-align: center; margin: 0 8px; padding: 0 =
+5px; border: 15px solid #005850;">View Details</a>=0D
+<p style=3D"font-family: Helvetica, Arial, sans-serif; font-size: 12px; lin=
+e-height: 14px;" align=3D"center">=0D
+or view details by clicking:=0D
+<br>=0D
+<a href=3D"https://www.credly.com/go/X1fw1G27UQpcSyJMTWUYFg" style=3D"font-=
+family: Helvetica, Arial, sans-serif; color: #005850; text-decoration: none=
+; word-break: break-all;">https://www.credly.com/go/X1fw1G27UQpcSyJMTWUYFg<=
+/a>=0D
+</p>=0D
+</div>=0D
+=0D
+=0D
+        <hr style=3D"border-top-width: 1px; border-top-color: #c5c5c5; marg=
+in: 8px 0 48px; border-style: solid none none;">=0D
+<table class=3D"centered" style=3D"mso-table-lspace: 0pt; mso-table-rspace:=
+ 0pt; border-collapse: collapse; width: 100%; text-align: center;"><tr><td =
+style=3D"border-collapse: collapse; font-family: Helvetica, Arial, sans-ser=
+if; padding: 5px;" class=3D"padded-section">=0D
+<p style=3D"font-family: Helvetica, Arial, sans-serif; margin-top: 0;"><img=
+ alt=3D"Credly" src=3D"https://cdn.credly.com/assets/email/logo_transparent=
+-219e265131eef8ddd47599db0f13c026127f5ec0398d3adbdab7e55138888a56.png" widt=
+h=3D"69" height=3D"17" style=3D"height: auto; line-height: 100%; outline: n=
+one; text-decoration: none; -ms-interpolation-mode: bicubic; border-style: =
+none; border-width: 0;"></p>=0D
+<p class=3D"spaced" style=3D"font-family: Helvetica, Arial, sans-serif; mar=
+gin-bottom: 0;"><a href=3D"https://www.credly.com" style=3D"font-family: He=
+lvetica, Arial, sans-serif;">Credly</a> is a badging platform that works wi=
+th credible organizations to recognize, manage and share professional achie=
+vements.  Credly is the world=E2=80=99s leading digital credential service =
+provider.</p>=0D
+</td></tr></table>=0D
+<table id=3D"footer" style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt;=
+ border-collapse: collapse; width: 100%;"><tr><td style=3D"border-collapse:=
+ collapse; font-family: Helvetica, Arial, sans-serif; padding: 24px;" class=
+=3D"padded-section" align=3D"center">=0D
+<p class=3D"spaced" style=3D"font-family: Helvetica, Arial, sans-serif; fon=
+t-size: 10px; line-height: 12px; margin: 0 0 5px;" align=3D"center">=0D
+If you prefer not to receive emails like this from Credly, you may <a href=
+=3D"https://www.credly.com/email_preferences/v2:UVhsVVAwdHZlMERuWHNIdHVMUDR=
+KZnR3R2ZjSjlWc0VrUUZhLytKelkvU3ExRjhaa2tyR2doOD0tLVJEN21KUE15WFc0SEpRY0stLU=
+Vsc1Zzak9EZjBabXpGS2g2YXIrTGc9PQ/edit" style=3D"font-family: Helvetica, Ari=
+al, sans-serif; color: #005850; text-decoration: none;">unsubscribe</a>.=0D
+<br> =C2=A9 Copyright 2023. All rights reserved.=0D
+</p>=0D
+</td></tr></table>=0D
+      </div>=0D
+    <!--[if mso]>=0D
+      </td></tr></table></center>=0D
+    <![endif]-->=0D
+  <img src=3D"https://u26682722.ct.sendgrid.net/wf/open?upn=3DUs6buetL9EVaG=
+BoZWWvQASDMwbwU9tggcCPxsUYhcJCxwzL8bSYlvulkHK9lS9eT5FigLPZcGBf4A0SzxznzYj03=
+yg8c2HTsaZucJpf-2F5ra4AEFOAL4Qv72GBjpeyTSHXXlrfs48PUCVnINY5DQ5QW0GTMEooXlB4=
+uwrRWCHgEZQ2kmUsEkqOL-2FQg68J-2BuvJnAAltxvilZ-2Buv6C1D6sfBv2cSaPb0xpmQ59k9p=
+rhAA0j6Ymlo0JPXJN1pz8AqzWaUiHZnecpRwMejrrH9dSfczjM5-2F64qkpPHdv0UTBICP78ZMq=
+9SG8urvRr9K1wlAa2dlHEWBaZD1H2jp4NRaHZvitJ9unjvIxDHnspjMvZ2ZrEvQjta82xJZSb-2=
+BthnHVN0BZ3Wg1sDASi-2FFxYE7DK9N4w6Q-2BcqIu8KR5medj9oyUcYTEOwGo-2BnMPvWHAPoW=
+smIOR0XH5g7QowtH6TO3xDPelhYFADvNG7-2FEVFbjIjai8LrN21amBeL1y8w5xGNmmbREmoYj4=
+mjC-2BYv-2BeD4IZC38JHk1-2FCk7mHchFbHutc0Dw-2BwmdZ-2BjUC1cGHCFEio-2FwSti2b2J=
+TVRf4Wf76DIZHKxQof4mXGiO2CBh-2FsMdVh1nPU-3D" alt=3D"" width=3D"1" height=3D=
+"1" border=3D"0" style=3D"height:1px !important;width:1px !important;border=
+-width:0 !important;margin-top:0 !important;margin-bottom:0 !important;marg=
+in-right:0 !important;margin-left:0 !important;padding-top:0 !important;pad=
+ding-bottom:0 !important;padding-right:0 !important;padding-left:0 !importa=
+nt;"></body>=0D
+</html>=0D
+
+----==_mimepart_63b870dc9c01e_1e1be4147581--
