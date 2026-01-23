@@ -19,7 +19,6 @@ public class FormulaDeBhaskara {
 
         System.out.printf("O Resultado do Delta e de %.2f, e o Resultado de + %.2f e - %.2f",delta,xMais,xMenos);
 
-        entrada.close();
     }
 
 }

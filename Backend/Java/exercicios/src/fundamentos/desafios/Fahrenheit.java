@@ -13,7 +13,6 @@ public class Fahrenheit {
         System.out.printf("%.1fF para %.1fC e de ",temFa,temCe);
 
 
-        
 
     }
 
