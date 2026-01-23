@@ -13,5 +13,6 @@ public class AoQuadradoEAoCubo {
         int resultadoCubo = numero * numero * numero;
 
         System.out.printf( "O %d ao Quadrado e %d e ao cubo e %d",numero,resultadoQuadrado,resultadoCubo);
+        entrada.close();
     }
 }

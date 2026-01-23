@@ -17,6 +17,8 @@ public class IMC {
         double imc = peso/(altura*altura);
 
         System.out.printf("Seu IMC e de: %.2f",imc);
+
+        entrada.close();
     }
 
 

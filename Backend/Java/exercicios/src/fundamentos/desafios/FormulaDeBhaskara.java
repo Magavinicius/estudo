@@ -18,6 +18,8 @@ public class FormulaDeBhaskara {
         double xMenos = (-b - Math.sqrt(delta)) / 2*a;
 
         System.out.printf("O Resultado do Delta e de %.2f, e o Resultado de + %.2f e - %.2f",delta,xMais,xMenos);
+
+        entrada.close();
     }
 
 }
