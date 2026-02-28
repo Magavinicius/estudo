@@ -4,8 +4,8 @@ import java.util.Scanner;
 public class DesafioWhile {
     public static void main(String[] args) {
 
-        System.out.println("Digite as notas dos alunos");
-
+        System.out.println("Digite as notas dos alunos (entre 0 a 10)");
+        System.out.println("Para sair digite -1");
         Scanner entrada = new Scanner(System.in);
         double nota = 0;
         double total = 0;
@@ -17,6 +17,8 @@ public class DesafioWhile {
             if(nota <= 10 && nota >= 0){
                 total += nota;
                 cont++;
+            }else{
+                System.out.println("Nota invalida");
             }
         }
    
