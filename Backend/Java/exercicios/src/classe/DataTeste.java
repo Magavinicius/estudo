@@ -3,13 +3,16 @@ public class DataTeste {
         
         Data data1 = new Data();
         data1.dia = 17;
-        data1.mes = 03;
+        data1.mes = 3;
         data1.ano = 2026;
-
-        Data data2 = new Data();
+        
+        Data data2 = new Data(); 
         data2.dia = 24;
-        data2.mes = 02;
+        data2.mes = 2;
         data2.ano = 1998;
+
+        System.out.printf("%d/%d/%d\n",data1.dia,data1.mes,data1.ano);
+        System.out.printf("%d/%d/%d",data2.dia,data2.mes,data2.ano);
 
     }
 
