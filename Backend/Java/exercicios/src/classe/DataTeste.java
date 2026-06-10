@@ -6,13 +6,13 @@ public class DataTeste {
         data1.mes = 3;
         data1.ano = 2026;
         
-        Data data2 = new Data(); 
+        Data data2 = new Data();  
         data2.dia = 24;
         data2.mes = 2;
         data2.ano = 1998;
 
-        System.out.printf("%d/%d/%d\n",data1.dia,data1.mes,data1.ano);
-        System.out.printf("%d/%d/%d",data2.dia,data2.mes,data2.ano);
+        System.out.println(data1.obterDataFormatada());
+        System.out.println(data2.obterDataFormatada());
 
     }
 
